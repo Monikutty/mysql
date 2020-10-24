@@ -1,0 +1,7 @@
+create table emp(id int,name varchar(20));
+show tables;
+insert table emp(id,name)values(101,'monisha');
+drop table emp;
+alter table emp add address varchar(20);
+alter table emp add state varchar(30) after address;
+alter table emp change column address emp_address varchar(30);
